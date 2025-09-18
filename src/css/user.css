@@ -1,0 +1,68 @@
+.user {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f8f9;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font: normal normal normal 14px/22px Rubik;
+  text-transform: capitalize;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+.user .setting {
+  height: 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15px;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+.user .userName {
+  display: flex;
+  height: 110px;
+  align-items: center;
+  padding: 0px 20px;
+  gap: 20px;
+  margin-top: 10px;
+}
+.user .userName .img {
+  position: relative;
+}
+.user .userName .img img {
+  height: 80px;
+  border-radius: 50%;
+  position: relative;
+}
+.user .userName .img .cam {
+  height: 20px;
+  background-color: #6c25ff;
+  position: absolute;
+  z-index: 1;
+  padding: 4px;
+  bottom: 4px;
+  right: 2px;
+  cursor: pointer;
+}
+.user .userName .name {
+  font-weight: bold;
+}
+.user .userName .emailID {
+  font-size: 12px;
+}
+.user .userName .detail {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  justify-content: start;
+}
+.user .bio {
+  padding: 0 20px;
+  padding-bottom: 10px;
+  color: grey;
+  font-size: 14px;
+  border-bottom: 1px dashed grey;
+}
+
+/*# sourceMappingURL=user.css.map */

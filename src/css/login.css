@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+.login {
+  padding: 30px 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.login h2 {
+  width: 80%;
+  font-size: 28px;
+}
+.login p {
+  width: 95%;
+  font-size: 18px;
+  color: grey;
+}
+.login .email, .login .pass {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+.login .email input, .login .pass input {
+  position: relative;
+  height: 40px;
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 12px;
+}
+.login .email label, .login .pass label {
+  position: absolute;
+  z-index: 1;
+  top: 2px;
+  font-size: 12px;
+  left: 10px;
+  padding: 0 5px;
+  background-color: white;
+  text-align: center;
+  color: #6c25ff;
+  font-weight: bold;
+}
+.login .pass {
+  margin-top: 10px;
+}
+.login button {
+  width: 100%;
+  margin-top: 20px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #6c25ff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.login button:hover {
+  background-color: #4e1cbf;
+}
+
+/*# sourceMappingURL=login.css.map */

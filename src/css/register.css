@@ -1,0 +1,94 @@
+.register {
+  padding: 30px 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  gap: 15px;
+}
+.register h2 {
+  width: 70%;
+  font-size: 28px;
+}
+.register .top .input-field {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.register .top .input-field .full-name,
+.register .top .input-field .phoneNumber,
+.register .top .input-field .emailAddress,
+.register .top .input-field .password,
+.register .top .input-field .compny {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+.register .top .input-field .full-name input,
+.register .top .input-field .phoneNumber input,
+.register .top .input-field .emailAddress input,
+.register .top .input-field .password input,
+.register .top .input-field .compny input {
+  position: relative;
+  height: 40px;
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 0px 15px;
+  font-size: 12px;
+}
+.register .top .input-field .full-name label,
+.register .top .input-field .phoneNumber label,
+.register .top .input-field .emailAddress label,
+.register .top .input-field .password label,
+.register .top .input-field .compny label {
+  position: absolute;
+  z-index: 1;
+  top: 2px;
+  font-size: 12px;
+  left: 10px;
+  background-color: white;
+  padding: 0 5px;
+  text-align: center;
+  color: #6c25ff;
+  font-weight: bold;
+}
+.register .top .check {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.register .top .check .chk {
+  display: flex;
+  gap: 15px;
+}
+.register .btn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.register .btn button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #6c25ff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.register .btn button:hover {
+  background-color: #4e1cbf;
+}
+
+span {
+  color: red;
+}
+
+/*# sourceMappingURL=register.css.map */
